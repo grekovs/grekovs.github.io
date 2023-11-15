@@ -71,24 +71,12 @@ svg,img { max-width: 100%; height: auto; }
 .ds-info-list-section ul li a{ text-decoration: underline; }
 .ds-info-list-section ul li a:hover{ text-decoration: none; color: #000 }
 
-
-.ds-services-list-section ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-  }
-  
-  .ds-services-list-section ul li {
-	width: calc(50% - 10px); /* Adjust the 10px if you need more or less space between the columns */
-	margin-bottom: 10px; /* Adds some space below each list item */
-  }
-  
-  /* You may want to have them stack on smaller screens */
-  @media (max-width: 767px) {
-	.ds-services-list-section ul li {
-	  width: 100%;
-	}
-  }
+.ds-services-list-section{ margin-top:5.625rem  }
+.ds-services-list-section h3{font-size: 1.125rem;font-weight: 600; margin-bottom: 25px}
+.ds-services-list-section ul{ list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: space-between; }
+.ds-services-list-section ul li{ width: 50%;font-size: 1.125rem; margin-bottom: 10px }
+.ds-services-list-section ul li a{ text-decoration: underline; }
+.ds-services-list-section ul li a:hover{ text-decoration: none; color: #000 }
 
 
 .ds-pr-info{ display: block;font-size: 1.125rem; font-weight: 600; margin-bottom: 40px }
